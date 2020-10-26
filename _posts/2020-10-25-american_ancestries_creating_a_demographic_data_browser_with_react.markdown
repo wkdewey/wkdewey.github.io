@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "American Ancestries: Creating a Demographic Data Browser with React"
-date:       2020-10-26 00:25:24 +0000
+date:       2020-10-25 20:25:25 -0400
 permalink:  american_ancestries_creating_a_demographic_data_browser_with_react
 ---
 
