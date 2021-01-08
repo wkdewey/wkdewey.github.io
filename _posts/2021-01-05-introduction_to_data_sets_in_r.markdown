@@ -1,16 +1,16 @@
 ---
 layout: post
-title:      "Introduction to data sets in R"
-date:       2021-01-05 17:02:18 +0000
+title:      "The R Language, data sets, and web applications"
+date:       2021-01-05 12:02:19 -0500
 permalink:  introduction_to_data_sets_in_r
 ---
 
 
-Up until now in my technological training, I have focused on web development (with Flatiron School's program), but I also have an interest in data science. The analysis of data is an increasingly important application of computation, and digital humanists in particular are using data science tools more and more to record information about data sets (textual corpora, historical maps, and so forth) and identify patterns and trends within them, using the power of computers and algorithms to analyze a far greater amount of data than could be done by hand, and solidify their intuitions with specific evidence and mathematical precision.
+Up until now in my technical training, especially with Flatiron School's Online Software Engineering bootcamp, I have focused mostly on web development. But my interests in data driven projects, including my [American Ancestries project](https://github.com/wkdewey/react-project-american-ancestries-frontend) which allows users to collect data on American ancestry groups and explore patterns and trends, has led me to explore tools more generally associated with data science. I do not see a hard and fast distinction between web development and data science, as many web applications rely on the rigorous analysis of data, and data science applications need to have a front end interface to be accessible to non-specialists. Data science techniques, and languages like R, could potentially enhance projects such as American Ancestries, allowing more sophisticated management and manipulation of the data that is displayed on the front end. The analysis of data is an increasingly important application of computation, and digital humanists in particular are using data science tools more and more to record information about data sets (textual corpora, historical maps, and so forth) and identify patterns and trends within them, using the power of computers and algorithms to analyze a far greater amount of data than could be done by hand, and solidify their intuitions with specific evidence and mathematical precision. University libraries and research departments rely on the R language as a scripting language for software applications that involve the analysis of statistical data, in fields including economics, public health, biology, and engineering.
 
 **What is R?**
 
-R is a domain specific language designed for statistics and data analysis; it is not a general purpose language like Ruby or JavaScript. Unlike some other competitors,  R can be downloaded at (https://cran.r-project.org/). It comes with a console, but RStudio has a better user interface and more tools; it can be downloaded at (https://rstudio.com/products/rstudio/download/). You can save your work as scripts with this software.
+R is a domain specific language designed for statistics and data analysis; it is not a general purpose language like Ruby or JavaScript. Unlike some other competitors,  R can be downloaded at (https://cran.r-project.org/). It comes with a console, but RStudio has a better user interface and more tools; it can be downloaded at (https://rstudio.com/products/rstudio/download/). You can save your work as scripts with this software. Although R is not originally designed for web development (it predates the web), integration with applications written in Ruby or JavaScript is possible through RServe: https://www.rforge.net/Rserve/.
 
 **R packages**
 
@@ -105,6 +105,8 @@ sort(gapminder$life_expectancy)
 	 [ reached getOption("max.print") -- omitted 9545 entries ]
 ```
 This shows that there was some country--perhaps due to war or disease or famine--that had an average life expectancies of 13.20 in a given year. (By the way, this does not necessarily mean that people typically die at age 13. Life expectancies are averages that can be heavily skewed, for instance, by high infant mortality).
+
+****
 
 In a future blog post, I will show how to manipulate data in a way that is more practical and finds more specific information.
 **References:**
