@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying my JavaScript Rails app"
-date:       2021-01-28 01:10:57 +0000
+date:       2021-01-27 20:10:57 -0500
 permalink:  deploying_my_javascript_rails_app
 ---
 
