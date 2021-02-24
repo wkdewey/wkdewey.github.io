@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Linked Open Data and RDF"
-date:       2021-02-24 01:34:04 +0000
+date:       2021-02-23 20:34:04 -0500
 permalink:  linked_open_data_and_rdf
 ---
 
